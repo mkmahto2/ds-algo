@@ -12,5 +12,5 @@ Python and C++ Implementation of Data Structures and Algorithms from the Courser
 *W.I.P.*
 (This repository work is under progress, these are my solution to assignments for the courses)
 
-#Author 
+# Author 
 [Pratik Kumar](https://www.linkedin.com/in/pratik-kumar04/)
