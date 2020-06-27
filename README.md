@@ -22,11 +22,10 @@ The course covers basic algorithmic techniques and ideas for computational probl
   - [Stress Testing](https://github.com/pr2tik1/ds-algo/tree/master/algo-toolbox/assignments/week1_programming_challenges/2_maximum_pairwise_product/stress%20test)
 
 - Week 2  
-  - Small Fibonacci
-  - Last Digit of Fibonacci
-  - GCD
-  - LCM
-  - Huge Fibonacci Number modulo m
+  - [Small Fibonacci](https://github.com/pr2tik1/ds-algo/tree/master/algo-toolbox/assignments/week2_algorithmic_warmup/1_fibonacci_number)
+  - [Last Digit of Fibonacci](https://github.com/pr2tik1/ds-algo/tree/master/algo-toolbox/assignments/week2_algorithmic_warmup/2_last_digit_of_fibonacci_number)
+  - [GCD](https://github.com/pr2tik1/ds-algo/tree/master/algo-toolbox/assignments/week2_algorithmic_warmup/3_greatest_common_divisor)
+  - [LCM](https://github.com/pr2tik1/ds-algo/tree/master/algo-toolbox/assignments/week2_algorithmic_warmup/4_least_common_multiple)
   
 - Week 3
   - Changing Money
