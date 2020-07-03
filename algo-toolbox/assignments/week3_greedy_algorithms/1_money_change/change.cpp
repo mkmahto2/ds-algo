@@ -2,7 +2,16 @@
 
 int get_change(int m) {
   //write your code here
-  return n;
+  int result = 0;
+  //coin of 10s
+  result += m / 10;
+  m = m%10;
+  //coin of 5s
+  result += m/5;
+  m = m%5;
+  //total coins
+  m+= result;
+  return m;
 }
 
 int main() {
