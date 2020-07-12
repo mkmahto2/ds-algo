@@ -3,13 +3,14 @@
 Python and C++ Implementation of Data Structures and Algorithms from the Coursera course, 
 
 - [Algorithmic Toolbox](https://www.coursera.org/learn/algorithmic-toolbox/)
-- [Data Structures]()
-- [Graph Algorithms]()
-- [Advanced Algorithms]()
-- [Final- Genome Challenge]()
+- [Data Structures](https://www.coursera.org/learn/data-structures)
+- [Algorithms on Graphs](https://www.coursera.org/learn/algorithms-on-graphs)
+- [Algorithms on Strings](https://www.coursera.org/learn/algorithms-on-strings)
+- [Advanced Algorithms and Complexity](https://www.coursera.org/learn/advanced-algorithms-and-complexity)
+- [Final- Genome Challenge](https://www.coursera.org/learn/assembling-genomes)
 
 
-*W.I.P.*
+**W.I.P**.
 (This repository work is under progress, these are my solution to assignments for the courses)
 
 # 1. Algorithmic Toolbox 
@@ -28,11 +29,9 @@ The course covers basic algorithmic techniques and ideas for computational probl
   - [LCM](https://github.com/pr2tik1/ds-algo/tree/master/algo-toolbox/assignments/week2_algorithmic_warmup/4_least_common_multiple)
   
 - Week 3
-  - Changing Money
-  - Fractional Knapsack
-  - Minimum Dot Product
-  - Covering Segments by Points
-  - Pairwise Distinct Summands
+  - [Changing Money](https://github.com/pr2tik1/ds-algo/tree/master/algo-toolbox/assignments/week3_greedy_algorithms/1_money_change)
+  - [Fractional Knapsack](https://github.com/pr2tik1/ds-algo/tree/master/algo-toolbox/assignments/week3_greedy_algorithms/2_maximum_value_of_the_loot)
+  - [Minimum Dot Product](https://github.com/pr2tik1/ds-algo/tree/master/algo-toolbox/assignments/week3_greedy_algorithms/3_car_fueling)
   
 - Week 4
   - Binary Search
