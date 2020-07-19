@@ -1,60 +1,61 @@
 #include <iostream>
 #include <vector>
+#include <bits/stdc++.h>
 
-using std::vector;
-using std::min;
+using namespace std;
 
-int get_best_idx(vector<double>& ratios) {
-  double best = 0;
-  int best_idx = 0;
+struct weightValuePair
+{
+  int weight, value;
+  double vw;
+};
 
-  for (int i = 0; i < ratios.size(); i++) {
-    if (ratios[i] > best) {
-      best = ratios[i];
-      best_idx = i;
-    }
-  }
-  return best_idx;
-}
-
-double get_optimal_value(int capacity, vector<int> weights, vector<int> values) {
+double get_optimal_value(int capacity, vector<int> weights, vector<int> values)
+{
   double value = 0.0;
   // write your code here
-  vector<double> ratios(weights.size());
-  for(int i=0;i<weights.size();i++) {
-    ratios[i] = (double)values[i]/weights[i];
+  vector<weightValuePair> triplets;
+  for (unsigned long long i = 0; i < weights.size(); i++)
+  {
+    weightValuePair k;
+    k.weight = weights[i];
+    k.value = values[i];
+    k.vw = values.at(i) * 1.0 / weights.at(i);
+    triplets.push_back(k);
   }
-  
-  while (capacity > 0) {
-    int best_idx = get_best_idx(ratios);
-    if (weights[best_idx] > 0) {
-      double a = min((double)capacity, (double)weights[best_idx]);
-      double ratio = (double) values[best_idx] / (double) weights[best_idx];
-      value += a * ratio;
-      weights[best_idx] -= a;
-	  capacity -= a;
-      if (weights[best_idx] == 0) {
-        weights.erase(weights.begin() + best_idx);
-        values.erase(values.begin() + best_idx);
-		ratios.erase(ratios.begin() + best_idx);
-      }
+  std::sort(triplets.begin(), triplets.end(), [](const weightValuePair &a, const weightValuePair &b) -> bool {
+    return a.vw > b.vw;
+  });
+
+  for (unsigned long long i = 0; i < triplets.size(); i++)
+  {
+    if (capacity <= 0)
+    {
+      break;
+    }
+    if (triplets[i].weight <= capacity)
+    {
+      value += triplets[i].value;
+      capacity -= triplets[i].weight;
+    }
+    else
+    {
+      value += triplets[i].vw * capacity;
+      capacity = 0;
     }
   }
-  
   return value;
 }
 
-int main() {
+int main()
+{
   int n;
   int capacity;
-  std::cout<<"Enter the number of divisions \n";
-  std::cin >> n; 
-  std::cout<<"Enter the weight limit \n"; 
-  std::cin>>capacity;
+  std::cin >> n >> capacity;
   vector<int> values(n);
   vector<int> weights(n);
-  for (int i = 0; i < n; i++) {
-    std::cout<<"Enter the values and then weights: \n";
+  for (int i = 0; i < n; i++)
+  {
     std::cin >> values[i] >> weights[i];
   }
 
