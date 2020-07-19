@@ -6,7 +6,8 @@ def get_majority_element(a, left, right):
         return -1
     if left + 1 == right:
         return a[left]
-    #write your code here
+    a.sort()
+    
     return -1
 
 if __name__ == '__main__':
