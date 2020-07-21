@@ -1,17 +1,17 @@
+
 #include <iostream>
 #include <vector>
 
 using std::vector;
 
 int optimal_weight(int W, const vector<int> &w) {
-  //write your code here
-  int current_weight = 0;
+  vector<int> c(W+1);
   for (size_t i = 0; i < w.size(); ++i) {
-    if (current_weight + w[i] <= W) {
-      current_weight += w[i];
+    for(int j = W; j - w[i] >= 0; --j) {
+      c[j] = std::max(c[j], c[j - w[i]] + w[i]);
     }
   }
-  return current_weight;
+  return c[W];
 }
 
 int main() {

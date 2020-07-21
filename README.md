@@ -34,11 +34,11 @@ The course covers basic algorithmic techniques and ideas for computational probl
   - [Minimum Dot Product](https://github.com/pr2tik1/ds-algo/tree/master/algo-toolbox/assignments/week3_greedy_algorithms/3_car_fueling)
   
 - Week 4
-  - Binary Search
-  - Majority Element
-  - 3 Way Partition
-  - Number of Inversion
-  - Points and Segments
+  - [Binary Search]()
+  - [Majority Element]()
+  - [3 Way Partition]()
+  - [Number of Inversion]()
+  - [Points and Segments]()
 
 - Week 5
   - Primitive Calculator
