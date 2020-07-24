@@ -32,3 +32,7 @@ The course covers basic algorithmic techniques and ideas for computational probl
 - Week 6
   - [Maximize the Value of an Arithmetic Expression](https://github.com/pr2tik1/ds-algo/tree/master/algo-toolbox/assignments/week6_dynamic_programming2/3_maximum_value_of_an_arithmetic_expression)
   - [Max amount of Gold](https://github.com/pr2tik1/ds-algo/tree/master/algo-toolbox/assignments/week6_dynamic_programming2/1_maximum_amount_of_gold)
+  
+  
+ # Certification
+To view the certificate visit my [web page](https://pr2tik1.github.io/index.html).
