@@ -1,6 +1,6 @@
 # Data Structures and Algorithms
 
-Python and C++ Implementation of Data Structures and Algorithms from the Coursera course, 
+Python and C++ Implementation of Data Structures and Algorithms from courses. This is for personal reference and practice purpose. 
 
   
 # Author 
