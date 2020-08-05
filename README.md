@@ -6,6 +6,11 @@ Python and C++ Implementation of Data Structures and Algorithms from courses. Th
 Coursera Courses :
   - University of California San Diego :
       - [Algorithmic Toolbox](https://github.com/pr2tik1/ds-algo/tree/master/algo-toolbox)
+
+<p align = "center">
+  <img src = "https://media.giphy.com/media/gizZvICXsQn2g6JajG/giphy.gif">
+</p>
+
   
 ## Author 
 
